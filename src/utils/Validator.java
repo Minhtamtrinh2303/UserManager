@@ -76,7 +76,7 @@ public class Validator {
         boolean isValid = false;
         do {
             try {
-                value = sc.nextInt();
+                value = Integer.parseInt(sc.nextLine());
                 isValid = true;
             } catch (InputMismatchException e) {
                 System.out.println("Invalid number, please re-enter");
