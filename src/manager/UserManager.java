@@ -58,7 +58,7 @@ public class UserManager {
         }
 
         System.out.println("Login Success");
-        System.out.println("Congratulation" +username);
+        System.out.println("Congratulation " +username);
         return true;
     }
     //forget Password
